@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,14 +6,32 @@
     <link rel="stylesheet" href="./src/output.css" />
     <title>CV for 10X</title>
   </head>
-  <body>
-    <div id="title_container">
-      <div id="image_container">
-        <img
-          src="./Photos/172153049.jpg"
-          alt="Profile photo"
-          id="profile_photo"
-        />
+  <body class="bg-black">
+    <div id="background" class="min-h-fit min-w-full">
+      <div id="banner_container" class="h-fit w-full bg-black">
+        <div id="image_div" class="w-full flex mt-8 justify-center">
+          <div id="image_container" class="h-[50%] w-[50%] flex justify-center">
+            <img
+              class="h-full w-full rounded-full"
+              src="./Photos/172153049.jpg"
+              alt="Profile photo"
+            />
+          </div>
+        </div>
+        <div id="name_container" class="h-fit w-full mt-8 flex">
+          <div
+            id="name"
+            class="w-[50%] text-[40] font-bold text-white flex justify-end content-center pr-2 border-r-2 border-solid border-white"
+          >
+            SANDRO <br> TVALIASHVILI
+          </div>
+          <div
+            id="profession"
+            class="w[50%] text-[40] font-bold text-white flex content-center pl-2 border-l-2 border-solid border-white"
+          >
+            PRODUCT <br> DESIGNER
+          </div>
+        </div>
       </div>
     </div>
   </body>
