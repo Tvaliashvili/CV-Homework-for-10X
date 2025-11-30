@@ -14,11 +14,17 @@
   </head>
   <body class="bg-black font-[anton]">
     <div id="background" class="min-h-fit min-w-full">
-      <div id="banner_container" class="h-fit w-full bg-black">
-        <div id="image_div" class="w-full flex mt-8 justify-center">
+      <div
+        id="banner_container"
+        class="h-fit w-full bg-black md:flex md:justify-center md:items-center"
+      >
+        <div
+          id="image_div"
+          class="w-full flex mt-8 md:mt-4 md:mb-4 justify-evenly"
+        >
           <div
             id="image_container"
-            class="h-40 w-40 flex justify-center bg-[#D3BFF9] border-2 border-white border-solid rounded-full"
+            class="h-40 w-40 md:h-60 md:w-60 flex justify-center items-center bg-[#D3BFF9] border-2 border-white border-solid rounded-full"
           >
             <img
               class="h-full w-full rounded-full"
@@ -30,7 +36,7 @@
         <div id="name_container" class="h-fit w-full mt-8 flex">
           <div
             id="name"
-            class="w-[50%] h-fit text-xl font-bold text-white flex justify-end content-center pr-4 border-r-4 border-solid border-white"
+            class="w-[50%] h-fit text-xl md:text-7xl font-bold text-white flex justify-end content-center pr-4 border-r-4 border-solid border-white"
           >
             <p>
               <span
@@ -43,7 +49,7 @@
           </div>
           <div
             id="profession"
-            class="w[50%] h-fit text-xl font-bold text-white flex content-center pl-4 border-l-4 border-solid border-white"
+            class="w[50%] h-fit text-xl md:text-7xl font-bold text-white flex content-center pl-4 border-l-4 border-solid border-white"
           >
             <p>
               PRODUCT <br />
@@ -55,8 +61,12 @@
           </div>
         </div>
       </div>
-      <div id="general_info">
-        <div id="left_side" class="h-fit w-full mt-8 flex justify-center">
+              <div id="hidden_superhero" class="md:w-full md:h-4 md:border-r md:border-white"></div>
+      <div id="general_info" class="md:flex md:border-t border-white">
+        <div
+          id="left_side"
+          class="h-fit w-full mt-8 md:mt-4 flex justify-center"
+        >
           <div id="personal_info" class="h-fit w-50">
             <div
               id="personal_header"
@@ -201,7 +211,7 @@
         </div>
         <div
           id="right_side"
-          class="h-fit text-justify ml-5 mr-5 flex flex-col justify-center mt-8"
+          class="h-fit text-justify ml-5 md:ml-0 md:pl-4 mr-5 flex flex-col justify-center mt-8 md:mt-4 md:border-l md:border-white"
         >
           <div
             id="profile_header"
@@ -219,18 +229,18 @@
             </p>
             <div
               id="chart_container"
-              class="h-fit w-full mt-8 flex flex-col justify-center items-center"
+              class="h-fit w-full mt-8 flex flex-col justify-center items-center md:flex-row md:mt-4 md:justify-between"
             >
               <div class="h-25 w-25" id="UX_chart">
                 <img src="./Photos/Donut UX.svg" alt="UX chart" />
               </div>
-              <div class="h-25 w-25 mt-8" id="UI_chart">
+              <div class="h-25 w-25 mt-8 md:mt-0" id="UI_chart">
                 <img src="./Photos/Donut UI.svg" alt="UI chart" />
               </div>
-              <div class="h-25 w-25 mt-8" id="UI_chart">
+              <div class="h-25 w-25 mt-8 md:mt-0" id="UI_chart">
                 <img src="./Photos/Donut Design.svg" alt="UI design chart" />
               </div>
-              <div class="h-25 w-25 mt-8" id="IA">
+              <div class="h-25 w-25 mt-8 md:mt-0" id="IA">
                 <img src="./Photos/Donut IA.svg" alt="IA chart" />
               </div>
             </div>
@@ -359,13 +369,14 @@
               </div>
               <div
                 id="circle_container"
-                class="h-30 w-2.5 border-r border-white"
+                class="h-30 md:h-10 w-2.5 border-r border-white"
               >
                 <div id="circle" class="w-5 h-5 bg-white rounded-full"></div>
               </div>
               <div id="description_container" class="h-fit w-[33%] text-white">
                 <p class="text-sm text-start pb-4">
-                  <span class="text-sm">UX/UI DESIGNER - product design</span> <br />
+                  <span class="text-sm">UX/UI DESIGNER - product design</span>
+                  <br />
                   <span class="text-xs">PLATZI, COLOMBIA</span>
                 </p>
               </div>
