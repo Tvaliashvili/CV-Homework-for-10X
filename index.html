@@ -4,16 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
     <title>CV for 10X</title>
   </head>
-  <body class="bg-black">
+  <body class="bg-black font-[anton]">
     <div id="background" class="min-h-fit min-w-full">
       <div id="banner_container" class="h-fit w-full bg-black">
         <div id="image_div" class="w-full flex mt-8 justify-center">
-          <div id="image_container" class="h-[50%] w-[50%] flex justify-center">
+          <div
+            id="image_container"
+            class="h-30 w-30 flex justify-center bg-[#D3BFF9] border-2 border-white border-solid rounded-full"
+          >
             <img
               class="h-full w-full rounded-full"
-              src="./Photos/172153049.jpg"
+              src="./Photos/3dc9bae4b2edc168bd2fd8ef0e2a7039fa12f31b.png"
               alt="Profile photo"
             />
           </div>
@@ -21,15 +30,28 @@
         <div id="name_container" class="h-fit w-full mt-8 flex">
           <div
             id="name"
-            class="w-[50%] text-[40] font-bold text-white flex justify-end content-center pr-2 border-r-2 border-solid border-white"
+            class="w-[50%] h-fit text-xl font-bold text-white flex justify-end content-center pr-4 border-r-4 border-solid border-white"
           >
-            SANDRO <br> TVALIASHVILI
+            <p>
+              <span
+                class="font-extrabold bg-linear-to-r from-[#8EC5FC] to-[#E0C3FC] bg-clip-text text-transparent"
+                >CRISTIAN</span
+              >
+              <br />
+              MUÑOZ
+            </p>
           </div>
           <div
             id="profession"
-            class="w[50%] text-[40] font-bold text-white flex content-center pl-2 border-l-2 border-solid border-white"
+            class="w[50%] h-fit text-xl font-bold text-white flex content-center pl-4 border-l-4 border-solid border-white"
           >
-            PRODUCT <br> DESIGNER
+            <p>
+              PRODUCT <br />
+              <span
+                class="font-extrabold bg-linear-to-r from-[#FA709A] to-[#FEE140] bg-clip-text text-transparent"
+                >DESIGNER</span
+              >
+            </p>
           </div>
         </div>
       </div>
