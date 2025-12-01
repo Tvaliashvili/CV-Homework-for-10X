@@ -13,6 +13,13 @@
     <title>CV for 10X</title>
   </head>
   <body class="bg-black font-[anton]">
+<div id="button" class="flex justify-center mt-2 cursor-pointer">
+  <a id="dark_to_light" href="#">
+    <button class="bg-[#504e54] hover:bg-blue-700  text-white py-1 px-1 rounded cursor-pointer transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+      ☀️
+    </button>
+  </a>
+</div>
     <div id="background" class="min-h-fit min-w-full">
       <div
         id="banner_container"
@@ -61,7 +68,10 @@
           </div>
         </div>
       </div>
-              <div id="hidden_superhero" class="md:w-full md:h-4 md:border-r md:border-white"></div>
+      <div
+        id="hidden_superhero"
+        class="md:w-full md:h-4 md:border-r md:border-white"
+      ></div>
       <div id="general_info" class="md:flex md:border-t border-white">
         <div
           id="left_side"
@@ -122,9 +132,9 @@
               id="contact_first"
               class="mt-1 text-white text-base border-b-[0.2px] border-solid border-[#F4EFFD] pb-1"
             >
-              <p>
+              <p class="">
                 <span class="text-sm">Email</span> <br />
-                <span class="font-light text-xs">hola@soytian.tech</span>
+                <a href="#" id="email"><span class="font-light text-xs hover:text-blue-700">hola@soytian.tech</span></a>
               </p>
             </div>
             <div
@@ -133,9 +143,11 @@
             >
               <p>
                 <span class="text-sm">Web</span> <br />
-                <span class="font-light text-xs"
-                  >https://www.soytian.tech/</span
-                >
+                <a href="#" id="web">
+                  <span class="font-light text-xs hover:text-blue-700"
+                    >https://www.soytian.tech/</span
+                  >
+                </a>
               </p>
             </div>
             <div
@@ -144,9 +156,11 @@
             >
               <p>
                 <span class="text-sm">LinkedIn</span> <br />
-                <span class="font-light text-xs"
-                  >https://www.linkedin.com/in/tianmunooz</span
-                >
+                <a href="#" id="LinkedIn">
+                  <span class="font-light text-xs hover:text-blue-700"
+                    >https://www.linkedin.com/in/tianmunooz</span
+                  >
+                </a>
               </p>
             </div>
             <div
